@@ -1,4 +1,10 @@
 
+* KFtec Usage
+
+      #+BEGIN_EXAMPLE
+      sudo ./ptp4l -i enp6s0 -m -q -l 6 -2 -f ./configs/gPTP.cfg
+      #+END_EXAMPLE
+
 * Introduction
 
   This software is an implementation of the Precision Time Protocol
